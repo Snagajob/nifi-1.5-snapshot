@@ -4,7 +4,7 @@ dependencies:
 
 compile:
   override:
-    - mvn -T C2.0 install
+    - mvn -T C2.0 clean install
 
 deployment:
   release:
