@@ -12,6 +12,12 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
+## NOTE
+This repo is an old copy of the Apache NiFi repository (copied from 1.5.0-SNAPSHOT) that serves as the basis of our NiFi cluster
+supporting Thespis. See [https://github.com/Snagajob/match.thespis.nifi/blob/develop/Dockerfile](https://github.com/Snagajob/match.thespis.nifi/blob/develop/Dockerfile).
+This repo should be deleted once we are able to migrate the Thespis NiFi cluster to a new one that follows our new pattern for NiFi deployment (see [nifi-argus](https://github.com/Snagajob/nifi-argus), [nifi-etl](https://github.com/Snagajob/nifi-etl), [nifi-iris](https://github.com/Snagajob/nifi-iris)).
+##
+
 [<img src="https://nifi.apache.org/assets/images/apache-nifi-logo.svg" width="300" height="126" alt="Apache NiFi"/>][nifi]
 
 #  [![Build Status](https://travis-ci.org/apache/nifi.svg?branch=master)](https://travis-ci.org/apache/nifi)
